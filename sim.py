@@ -126,7 +126,7 @@ if __name__ == "__main__":
     frolling_resistance = []
 
     # Run the DDWFTTW simulation and store some things to plot later
-    maxsteps = 1000
+    maxsteps = 400
     dt = 0.5
     initial_condition = np.array([0.0, initial_speed])
     integrator = RK4(motion, 0.0, initial_condition, dt)
