@@ -8,7 +8,7 @@ Four forces act on the vehicle:
 * Frame drag due to air flow over the vehicle
 * Rolling resistance
 
-I could not find detailed specifications for the vehicle, so I had to estimate most of the parameters. Available information included the rotor diameter and airfoil. The rotor is definitely note completely optimized, but I did spend some time tweaking it to try to get a positive net force over the largest speed range I could.
+I could not find detailed specifications for the vehicle, so I had to estimate most of the parameters. Available information included the rotor diameter and airfoil. The rotor is definitely not completely optimized, but I did spend some time tweaking it to try to get a positive net force over the largest speed range I could.
 
 The main simulation script is sim.py. Python with matplotlib and numpy are required to run it. Note that the code is not at all optimized, so it takes a long time to run. All the parameters are in the main part of sim.py if you would like to experiment.
 
